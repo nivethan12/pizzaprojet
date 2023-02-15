@@ -17,13 +17,13 @@
 				<div class="card mb-3">
 					<div class="row g-0">
 						<div class="col-md-4">
-							<img src="https://via.placeholder.com/300x200" alt="Pizza Margherita">
+							<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4dOL7w_FpjpUbfTiTZAbJOvTHseTNcz9N1g&usqp=CAU/300x200" alt="Pizza Margherita">
 						</div>
 						<div class="col-md-8">
 							<div class="card-body">
 								<h5 class="card-title">Pizza Margherita</h5>
 								<p class="card-text">Une pizza classique avec de la mozzarella, de la tomate et du basilic.</p>
-								<p class="card-text"><strong>Prix : 10 €</strong></p>
+								<p class="card-text"><strong>Prix : 10.99 €</strong></p>
 								<button type="button" class="btn btn-primary btn-order" data-pizza="margherita">Commander</button>
 							</div>
 						</div>
@@ -33,13 +33,13 @@
 				<div class="card mb-3">
 					<div class="row g-0">
 						<div class="col-md-4">
-							<img src="https://via.placeholder.com/300x200" alt="Pizza Queen">
+							<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGZEZGMcpoTKenC8k5EvxKGSAwgWbaOsV5cg&usqp=CAU" alt="Pizza Queen">
 						</div>
 						<div class="col-md-8">
 							<div class="card-body">
 								<h5 class="card-title">Pizza Queen</h5>
 								<p class="card-text">Une pizza avec du jambon, champignon et de la mozzarella.</p>
-								<p class="card-text"><strong>Prix : 12 €</strong></p>
+								<p class="card-text"><strong>Prix : 13.99 €</strong></p>
 								<button type="button" class="btn btn-primary btn-order" data-pizza="queen">Commander</button>
 							</div>
 						</div>
@@ -75,10 +75,10 @@
 		class Pizzeria {
 			constructor() {
 				this.menu = [
-					new Pizza('Margherita', 10),
-					new Pizza('Queen', 12),
-					new Pizza('Pepperoni', 13),
-					new Pizza('4 cheese', 14)
+					new Pizza('Margherita', 10.99),
+					new Pizza('Queen', 13.99),
+					new Pizza('Pepperoni', 12.99),
+					new Pizza('4 cheese', 11.99)
 				];
 
 				this.order = [];
