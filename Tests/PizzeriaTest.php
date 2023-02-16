@@ -1,8 +1,9 @@
 <?php
 namespace App;
 
-use App\Order;
-use App\Pizza;
+use App\src\Entity\Order;
+use App\src\Entity\Pizza;
+use PHPUnit\Framework\TestCase;
 
 require_once 'Pizzeria.php';
 require_once 'Order.php';
